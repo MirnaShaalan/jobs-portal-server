@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinkDevelopment.JobsPortal.Domain", "LinkDevelopment.JobsPortal.Domain\LinkDevelopment.JobsPortal.Domain.csproj", "{E0909E43-7538-4F8B-AA0B-30C53B914CA9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinkDevelopment.JobsPortal.Repository", "LinkDevelopment.JobsPortal.Repository\LinkDevelopment.JobsPortal.Repository.csproj", "{AB3FDCDE-C216-4E6D-8A06-EC662FCCDCA9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinkDevelopment.JobsPortal.Repository.Interfaces", "LinkDevelopment.JobsPortal.Repository.Interfaces\LinkDevelopment.JobsPortal.Repository.Interfaces.csproj", "{D225C685-841D-483D-BF60-52B2B9BAEE07}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinkDevelopment.JobsPortal.Service", "LinkDevelopment.JobsPortal.Service\LinkDevelopment.JobsPortal.Service.csproj", "{F1508CA8-C913-4E27-8E0F-15F7231B3E39}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinkDevelopment.JobsPortal.Service.Interfaces", "LinkDevelopment.JobsPortal.Service.Interfaces\LinkDevelopment.JobsPortal.Service.Interfaces.csproj", "{1B454E5E-A254-4744-B59E-58DB9F2B7594}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinkDevelopment.JobsPortal.Web.Api", "LinkDevelopment.JobsPortal.Web.Api\LinkDevelopment.JobsPortal.Web.Api.csproj", "{EA47BF1D-8E64-4B07-B691-6633F7A8D63A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E0909E43-7538-4F8B-AA0B-30C53B914CA9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0909E43-7538-4F8B-AA0B-30C53B914CA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0909E43-7538-4F8B-AA0B-30C53B914CA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0909E43-7538-4F8B-AA0B-30C53B914CA9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB3FDCDE-C216-4E6D-8A06-EC662FCCDCA9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB3FDCDE-C216-4E6D-8A06-EC662FCCDCA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB3FDCDE-C216-4E6D-8A06-EC662FCCDCA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB3FDCDE-C216-4E6D-8A06-EC662FCCDCA9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D225C685-841D-483D-BF60-52B2B9BAEE07}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D225C685-841D-483D-BF60-52B2B9BAEE07}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D225C685-841D-483D-BF60-52B2B9BAEE07}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D225C685-841D-483D-BF60-52B2B9BAEE07}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1508CA8-C913-4E27-8E0F-15F7231B3E39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1508CA8-C913-4E27-8E0F-15F7231B3E39}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1508CA8-C913-4E27-8E0F-15F7231B3E39}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1508CA8-C913-4E27-8E0F-15F7231B3E39}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B454E5E-A254-4744-B59E-58DB9F2B7594}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B454E5E-A254-4744-B59E-58DB9F2B7594}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B454E5E-A254-4744-B59E-58DB9F2B7594}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B454E5E-A254-4744-B59E-58DB9F2B7594}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA47BF1D-8E64-4B07-B691-6633F7A8D63A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA47BF1D-8E64-4B07-B691-6633F7A8D63A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA47BF1D-8E64-4B07-B691-6633F7A8D63A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA47BF1D-8E64-4B07-B691-6633F7A8D63A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F105D682-7D7F-4179-85F7-D557A3BEFB23}
+	EndGlobalSection
+EndGlobal
