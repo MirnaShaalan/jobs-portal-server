@@ -1,4 +1,4 @@
-# JobsPortal
+# Jobs Portal
 Server side of jobs portal app using .net core web apis and entity framework with authentication and authorization flow handeled by jwt and roles.
 
 ## Main Functionality
@@ -10,7 +10,7 @@ Server side of jobs portal app using .net core web apis and entity framework wit
 
 
 ## Notes
-- Admin Credentials to login to the system 
+- Admin login Credentials (to edit/add/delete jobs ).
   - **UserName: admin** 
   - **Password : admin** 
 - Database is hosted so no need to change ConnectionString
