@@ -1,4 +1,4 @@
-# Jobs Portal
+# Jobs Portal Server
 Server side of jobs portal app using .net core web apis and entity framework with authentication and authorization flow handeled by jwt and roles.
 
 ## Main Functionality
