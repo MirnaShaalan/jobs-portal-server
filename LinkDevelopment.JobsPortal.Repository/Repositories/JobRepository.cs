@@ -94,10 +94,16 @@ namespace LinkDevelopment.JobsPortal.Repository.Repositories
             jobEntity.Remove(entity);
         }
 
+        
+
         public void SaveChanges()
         {
             context.SaveChanges();
         }
 
+         public Job GetByName(String name)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

@@ -2,6 +2,7 @@
 using LinkDevelopment.JobsPortal.Repository.Contexts;
 using LinkDevelopment.JobsPortal.Repository.Interfaces.Interfaces;
 using Microsoft.EntityFrameworkCore;
+using System.Xml.Linq;
 
 
 namespace LinkDevelopment.JobsPortal.Repository.Repositories
@@ -20,6 +21,10 @@ namespace LinkDevelopment.JobsPortal.Repository.Repositories
         public T Get(Guid id)
         {
             return entities.SingleOrDefault(s => s.Id == id);
+        }
+        public T GetByName(String name)
+        {
+            return entities.SingleOrDefault(s => s.Name == name);
         }
 
         public T Insert(T entity)

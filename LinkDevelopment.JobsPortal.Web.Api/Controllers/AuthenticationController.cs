@@ -56,6 +56,10 @@ namespace LinkDevelopment.JobsPortal.Web.Api.Controllers
                 try
                 {
                     insertedUser=userService.Insert(user);
+                    if(insertedUser==null)
+                    {
+                        return BadRequest();
+                    }
                     AuthBaseEntity authUser = new AuthBaseEntity()
                     {
                         Name=user.Name,

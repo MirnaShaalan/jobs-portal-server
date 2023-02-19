@@ -19,8 +19,15 @@ namespace LinkDevelopment.JobsPortal.Service.Services
             return userRepository.Get(id);
         }
 
+        public User GetUserByName(string name)
+        {
+            return userRepository.GetByName(name);
+        }
+
         public User Insert(User user)
         {
+            if (userRepository.GetByName(user.Name) != null)
+                return null;
             return userRepository.Insert(user);
         }
 

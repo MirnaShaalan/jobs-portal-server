@@ -6,6 +6,7 @@ namespace LinkDevelopment.JobsPortal.Service.Interfaces.Interfaces
     public interface IUserService
     {
         User GetUserById(Guid userId);
+        User GetUserByName(string name);
 
         User Insert(User user);
 
