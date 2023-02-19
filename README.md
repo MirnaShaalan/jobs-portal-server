@@ -1,12 +1,16 @@
 # Jobs Portal Server
-Server side of jobs portal app using .net core web apis and entity framework with authentication and authorization flow handeled by jwt and roles.
+Server side of jobs portal app using .Net 6 (.net core) web apis and entity framework with authentication and authorization flows handeled by jwt and roles.
 
 ## Main Functionality
 - Guest can view available jobs.
 - Guest can sign up to create an account.
 - User can signin to apply for jobs.
-- User can get his/her jobs.
+- User can View jobs he/she applied for.
+- User cannot apply for job when it is expired.
 - Admin can add/edit/delete jobs.
+- Job Expired when its date is not available anyore.
+- Job Stops accepting applications when its reach maximum applicant number.
+
 
 
 ## Notes
